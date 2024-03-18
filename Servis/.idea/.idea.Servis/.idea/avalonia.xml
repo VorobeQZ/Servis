@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Servis/App.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Autorization.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/DataGridHyperlinkColumn.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/MainWindow.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Menu.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Test.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Zakaz.axaml" value="Servis/Servis.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Servis.Uslugi"
+        Title="Servis"
+    Background="SlateGray">
+    
+    <Grid>
+        <DataGrid Name="DataGrid"  x:CompileBindings="False" Margin ="10 20 0 0" Height="250">
+            <DataGrid.Resources>
+                <SolidColorBrush x:Key="DataGridRowHoveredBackgroundColor" Color="#9EB6FF" />
+            </DataGrid.Resources>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Код" Binding="{Binding Код}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Наименование" Binding="{Binding Наименование}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Стоимость" Binding="{Binding Стоимость}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Ожидаемое время выполнения" Binding="{Binding Ожидаемое_время_выполнения}"></DataGridTextColumn>
+                <DataGridTemplateColumn Header="Фото" Width="80" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Фото}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Скидка" Binding="{Binding Скидка}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Итоговая стоимость" Binding="{Binding Итоговая_стоимость}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
