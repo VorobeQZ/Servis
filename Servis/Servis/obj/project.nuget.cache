@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XGNfcu2ATlu6yBeZTeB6H6RvOM+F4+sFhTsdRYW7a4Hiep+4kjfsvOCqS/ieZgvCveOok8y4IUDMPmKxICAcCg==",
+  "dgSpecHash": "jzjCbARGCL4eAs6loDflCE1wcTiVnFAumRSn3EMDeLFVcW0P/b2350geg68n6clZ5b+ZI1falioQ1DFWp/yqYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bor18\\OneDrive\\Рабочий стол\\УП_Отыр\\Servis\\Servis\\Servis.csproj",
+  "projectFilePath": "C:\\Users\\bor18\\OneDrive\\Рабочий стол\\УП_Отыр\\Serviss\\Servis\\Servis\\Servis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bor18\\.nuget\\packages\\avalonia\\11.0.6\\avalonia.11.0.6.nupkg.sha512",
     "C:\\Users\\bor18\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

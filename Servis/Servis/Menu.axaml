@@ -4,6 +4,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Servis.Menu"
-        Title="Menu">
-    Welcome to Avalonia!
-</Window>
+      Title="Выбор таблицы данных"
+        Height="280"
+        Width="300"
+        WindowStartupLocation="CenterScreen"
+        Icon="/Assets/service_logo.ico"
+        Background="SlateGray">
+        <Grid>
+            
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal" Margin="10 10 0 0">
+                        <Button Name="Услуга" Content="Услуга" Click="Usluga"></Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="10 10 0 0">
+                        <Button Name="Заказ" Content="Заказ" Click="Zakaz"></Button>
+                    </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Window>

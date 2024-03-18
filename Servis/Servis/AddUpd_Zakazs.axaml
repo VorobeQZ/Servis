@@ -1,0 +1,40 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Servis.AddUpd_Zakazs"
+        Title="Внесение изменений"
+        Height="800"
+        Width="350"
+        Icon="/Assets/service_logo.ico"
+        WindowStartupLocation="CenterScreen"
+        Background="SlateGray">
+    <Grid>
+        <UniformGrid Columns="1">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin = "10 20 0 0">Код: </TextBlock>
+                <TextBox Name="Код" x:CompileBindings="False" Text="{Binding Код}" Width="200" Height="5" Margin = "10 0 0 0"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin = "10 20 0 0">Клиент: </TextBlock>
+                <TextBox Name="Клиент" x:CompileBindings="False" Text="{Binding Клиент}" Width="200" Height="5" Margin = "10 0 0 0"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Margin = "10 20 0 0">Услуга: </TextBlock>
+                <TextBox Name="Услуга" x:CompileBindings="False" Text="{Binding Услуга}" Width="200" Height="5" ></TextBox>
+            </StackPanel>
+            <StackPanel Margin="10 0 0 0">
+                <Calendar x:Name="calendar" SelectionMode="SingleDate" />
+                <TextBlock Name="Дата" IsVisible="False" Margin="20" Text="{Binding #calendar.SelectedDate}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="Save" Content="Сохранить" Click="Save_OnClick" Margin = "10 70 0 20"></Button>
+                <Button Name="Back" Content="Назад" Click="GoBack" Margin = "50 70 0 20"></Button>
+            </StackPanel>
+        </UniformGrid>
+    </Grid>
+</Window>
+

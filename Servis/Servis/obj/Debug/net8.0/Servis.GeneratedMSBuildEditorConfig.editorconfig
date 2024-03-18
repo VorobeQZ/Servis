@@ -13,24 +13,33 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Servis
-build_property.ProjectDir = C:\Users\bor18\OneDrive\Рабочий стол\УП_Отыр\Servis\Servis\
+build_property.ProjectDir = C:\Users\bor18\OneDrive\Рабочий стол\УП_Отыр\Serviss\Servis\Servis\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Servis/Servis/App.axaml]
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/AddUpd_Uslugi.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Servis/Servis/Autorization.axaml]
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/AddUpd_Zakazs.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Servis/Servis/Menu.axaml]
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Servis/Servis/Test.axaml]
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/Autorization.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Servis/Servis/Uslugi.axaml]
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/Menu.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Servis/Servis/Zakazs.axaml]
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/Uslugi.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/Uslugic.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/Zakazs.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/bor18/OneDrive/Рабочий стол/УП_Отыр/Serviss/Servis/Servis/Zayvki.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

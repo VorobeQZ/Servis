@@ -4,6 +4,64 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Servis.Zakazs"
-        Title="Zakaz">
-    Welcome to Avalonia!
+        Title="Заказы"
+        WindowStartupLocation="CenterScreen"
+        Icon="/Assets/service_logo.ico"
+        Background="SlateGray">
+    <Grid>
+<StackPanel Orientation="Vertical">
+<TextBlock Margin = "10 10 0 0" FontSize = "20" FontWeight="Bold"> Таблица "Заказы"</TextBlock>
+<StackPanel Orientation="Horizontal">
+<TextBlock VerticalAlignment="Center" Margin = "10 10 0 0"> Поиск по коду клиента: </TextBlock>
+<TextBox Name="SearchName" Width="200" Margin ="65 10 0 0"></TextBox>
+<TextBlock VerticalAlignment="Center"
+x:Name="FilterNum" Margin ="10 10 0 0">Фильтрация по заказу: </TextBlock>
+<ComboBox Name="CmbNum" Width="200" Margin ="10 10 0 0"
+x:CompileBindings="False"
+SelectionChanged="CmbNum_OnSelectionChanged">
+<ComboBox.ItemTemplate>
+<DataTemplate>
+<TextBlock Text="{Binding Код}"></TextBlock>
+</DataTemplate>
+</ComboBox.ItemTemplate>
+</ComboBox>
+</StackPanel>
+
+<StackPanel Orientation="Vertical">
+<StackPanel Orientation="Horizontal">
+<TextBlock VerticalAlignment="Center" Margin = "10 10 0 0"> Поиск по коду услуги: </TextBlock>
+<TextBox Name="SearchPrice" Width="200" Margin ="33 10 0 0"></TextBox>
+<StackPanel Margin="10 12 00 0">
+<Button Name="Add" Content="Добавить" Click="AddData"></Button>
+</StackPanel>
+<StackPanel Margin="10 12 00 0">
+<Button Name="Update" Content="Изменить" Click="EditData"></Button>
+</StackPanel>
+<StackPanel Margin="10 12 00 0">
+<Button Name="Delete" Content="Удалить" Click="DeleteData"></Button>
+</StackPanel>
+</StackPanel>
+<StackPanel Margin="10 13 0 10">
+<Button Name="TwoSearch" Content="Поиск по двум полям" Click="TwoSearch_OnClick"></Button>
+</StackPanel>
+</StackPanel>
+<DataGrid Name="DataGrid" x:CompileBindings="False" Margin ="10 20 0 0" Height="250">
+<DataGrid.Resources>
+    <SolidColorBrush x:Key="DataGridRowHoveredBackgroundColor" Color="#9EB6FF" />
+</DataGrid.Resources>
+<DataGrid.Columns>
+<DataGridTextColumn Header="Код" Binding="{Binding Код}"></DataGridTextColumn>
+<DataGridTextColumn Header="Клиент" Binding="{Binding Клиент}"></DataGridTextColumn>
+<DataGridTextColumn Header="Услуга" Binding="{Binding Услуга}"></DataGridTextColumn>
+<DataGridTextColumn Header="Дата" Binding="{Binding Дата}"></DataGridTextColumn>
+</DataGrid.Columns>
+</DataGrid>
+<StackPanel Orientation="Horizontal" Margin="10 20 20 0">
+<Button Name="Back" Content="Назад" Click="Back_OnClick"></Button>
+<StackPanel Margin="100 0 00 0">
+<Button Name="Reset" Content="Сброс фильтра" Click="Reset_OnClick"></Button>
+</StackPanel>
+</StackPanel>
+</StackPanel>
+</Grid>
 </Window>

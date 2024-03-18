@@ -3,13 +3,20 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="Servis/AddUpd_Uslugi.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/AddUpd_Zakazs.axaml" value="Servis/Servis.csproj" />
         <entry key="Servis/App.axaml" value="Servis/Servis.csproj" />
         <entry key="Servis/Autorization.axaml" value="Servis/Servis.csproj" />
         <entry key="Servis/DataGridHyperlinkColumn.axaml" value="Servis/Servis.csproj" />
         <entry key="Servis/MainWindow.axaml" value="Servis/Servis.csproj" />
         <entry key="Servis/Menu.axaml" value="Servis/Servis.csproj" />
         <entry key="Servis/Test.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Uslugi.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Uslugic.axaml" value="Servis/Servis.csproj" />
         <entry key="Servis/Zakaz.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Zakazs.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Zayvka.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Zayvki.axaml" value="Servis/Servis.csproj" />
       </map>
     </option>
   </component>

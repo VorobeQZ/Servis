@@ -12,6 +12,7 @@ public class Usluga
    public Bitmap Фото { get; set; }
    public int Скидка { get; set; }
    public double Итоговая_стоимость { get; set; }
+   public string Путь_фото { get; set; }
 }
 public class Sotrudnik
 {
@@ -63,6 +64,16 @@ public class Zakaz
     public int Код { get; set; }
     public int Клиент { get; set; }
     public int Услуга { get; set; }
-    public DateTime Дата { get; set; }
+    public string Дата { get; set; }
+
+}
+public class Zayvka
+{
+    public int Код { get; set; }
+    public string Фамилия { get; set; }
+    public string Имя { get; set; }
+    public string Отчество { get; set; }
+    public string Телефон { get; set; }
+    public string Проблема { get; set; }
 
 }

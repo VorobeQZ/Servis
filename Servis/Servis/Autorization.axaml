@@ -4,6 +4,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="Servis.Autorization"
-        Title="Autorization">
-    Welcome to Avalonia!
+        Title="Авторизация"
+        WindowStartupLocation="CenterScreen"
+        Height="200"
+        Width="300"
+        Icon="/Assets/service_logo.ico"
+        Background="SlateGray">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center" Margin=" 20 10 0 10"> Логин: </TextBlock>
+                <TextBox Name="Login" Width="200" Margin="10 10 0 10" Text = "" Watermark="Введите логин"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center" Margin=" 10 10 0 30"> Пароль: </TextBlock>
+                <TextBox Name="Password" Width="200" Margin="10 10 0 30" Text = "" Watermark="Введите пароль " PasswordChar="*"></TextBox>
+            </StackPanel>
+            <StackPanel>
+                <Label Name="LogErr" Content="Неверный логин/пароль!" IsVisible="False"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="Form2" Content="Вход" Click="Authorization" Margin=" 10 10 65 10"></Button>
+                <Button Name="Exit" Content="Выход" Click="Close" Margin=" 100 10 0 10"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
 </Window>
